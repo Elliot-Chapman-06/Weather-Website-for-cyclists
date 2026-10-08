@@ -1,0 +1,107 @@
+# CSS for weather website project
+body {   
+	font-family: times new roman, sans-serif;  
+	font-size:  50px;  
+	border-style: solid;  
+	border-radius: 50px;  
+	background-color: green;  
+}  
+
+.app-header h1{  
+	font-family: times new roman, sans-serif;  
+	font-color: red;  
+	border-style: double;  
+	border-radius: 25px 50%;  
+}  
+
+.app-header p {  
+	font-family: Sitka-text, sans-serif;  
+	font-colour: orange;  
+	border-radius: 75%;  
+	border-style: dotted;  
+	border-color: white;  
+}  
+
+  
+button {  
+	cursor: pointer;  
+	padding: 20px;  
+	border-style: solid;  
+	border-color: black;  
+	border-radius: 15px;  
+}  
+
+button:hover {  
+    background-color: red; 
+}  
+
+.current-weather {   
+	display: flex;  
+	text-align: center;  
+	background-color: blue;  
+	border-radius: 10px;  
+	border-color: white;  
+	border-style: solid;  
+}  
+
+.current-weather .icon img {   
+	width: 65px;  
+}  
+
+.info h2 { 
+	font-size: 8px;  
+	font-family: verdana, sans-serif;  
+	font-color: white;  
+}  
+
+.forecast {   
+	display: grid;  
+	gap: 15px;  
+	text-align: right;  
+}  
+
+
+.weekday {  
+
+	font-weight: bold;  
+	margin-bottom: 10px  
+	font-color: black;  
+}  
+
+.day .icon img {  
+	width: 65px  
+}  
+
+.temp {  
+	font-weight: bold;  
+	font-color: black;
+}  
+
+body.clear {  
+	background-image: url('https://images.pexels.com/photos/459451/pexels-photo 459451.jpeg?cs=srgb&dl=pexels-pixabay-459451.jpg&fm=jpg');  
+
+}  
+
+body.clouds {  
+
+	background-image: url('https://images.pexels.com/photos/459451/pexels-photo-459451.jpeg?cs=srgb&dl=pexels-pixabay-459451.jpg&fm=jpg');  
+
+}  
+
+body.rain {  
+
+	background-image: url('https://images.pexels.com/photos/459451/pexels-photo-459451.jpeg?cs=srgb&dl=pexels-pixabay-459451.jpg&fm=jpg');  
+}  
+
+body.default {  
+
+	background-image: url('https://images.pexels.com/photos/459451/pexels-photo-459451.jpeg?cs=srgb&dl=pexels-pixabay-459451.jpg&fm=jpg');  
+} 
+
+
+body {
+    background-image: url('https://media.istockphoto.com/id/926497236/photo/tropical-sea-in-summer.jpg?s=612x612&w=0&k=20&c=SgT--E-a5_UF4GPVnpC6r1IDtThuDiUHmtTbhHg5zJA=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
